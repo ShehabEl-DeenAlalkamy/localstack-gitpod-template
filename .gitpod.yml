@@ -24,7 +24,7 @@ tasks:
       pip install awscli-local
 ports:
   - port: 3000-8999
-    onOpen: ignore      
+    onOpen: open-browser      
   - port: 53
     onOpen: ignore      
   - port: 443
